@@ -142,3 +142,46 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+  display: block;
+}
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #f7fbff, #eef6ff);
+  border: 1px solid #dfeeff;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #0b3a66;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.6) inset;
+}
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.participant-delete:hover {
+  background: rgba(198,40,40,0.08);
+}
+
+/* Small helper for the "No participants yet" message inside cards */
+.activity-card .info {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #f0f7f9;
+  border: 1px solid #d6eef4;
+  color: #055a63;
+  border-radius: 4px;
+  font-size: 14px;
+}
